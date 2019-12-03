@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    padding: 90px 170px 0 170px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Introduction SECTION */
+#introduction {
+    height: 700px;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav__item {
+    text-decoration: none;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+
+.nav__item:first-child {
+    color: rgb(47,47,47);
+}
+
+.nav__item:not(:first-child) {
+    color: rgb(181,181,181);
+}
+
+.introduction_text {
+    margin: 200px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 750px;
+    height: 150px;
+    justify-content: center;
+}
+
+.introduction_text h1 {
+    font-size: 55px;
+}
+
+.introduction_text p {
+    font-size: 16px;
+    margin: 40px auto 0 auto;
+    color: rgb(181,181,181);
+    line-height: 25px;
+    width: 585px;
+}
+/* // Introduction SECTION */
+
+/* Video SECTION */
+#video {
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#video img {
+    width: 100%;
+    display: block;
+}
+
+.reviews {
+    width: 300px;
+}
+
+.main-video {
+    width: 620px; 
+}
+
+.secondary-video {
+    width: 280px;
+}
+
+#video h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.reviews__item {
+    font-size: 16px;
+    color: rgb(181,181,181);
+    border-bottom: 1px solid #000;
+    border-color: rgb(181,181,181);
+    line-height: 1.7;
+}
+
+.reviews__item .author {
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+    color: black;
+}
+
+.active {
+    margin-bottom: 70px;
+}
+
+.secondary-video img {
+    height: 175px;
+}
+/* // Video SECTION */
+
+/* Instractors SECTION */
+#instractors {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#instractors h2 {
+    font-size: 50px;
+}
+
+.instractors-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#instractors img {
+    width: 100%;
+    display: block;
+    width: 300px;
+    height: 360px;
+}
+
+#instractors h3 {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+#instractors p {
+    font-size: 15px;
+    color: rgb(85, 197, 96);
+}
+/* // Instractors SECTION */
+
+/* Blogs SECTION */
+#blogs {
+    height: 1070px;
+}
+
+#blogs h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.blogs-container {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-item {
+    display: flex;
+}
+
+.blog-item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.blog-item:first-child {
+    margin-bottom: 190px;
+}
+
+.blog-item p {
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.blog-item button {
+    padding: 20px;
+    width: 140px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgb(181,181,181);
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.first {
+    margin-left: 75px;
+}
+
+.second {
+    margin-right: 65px;
+}
+
+.second h3 {
+    font-size: 39px;
+    margin-bottom: 35px;
+    font-style: italic;
+}
+/* // Blogs SECTION */
+
+/* Question SECTION */
+#question {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question h2 {
+    font-size: 50px;
+    margin-bottom: 90px;
+}
+
+#question button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid rgb(181,181,181);
+    width: 180px;
+}
+/* // Question SECTION */
+
+/* Footer */
+footer {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid rgb(181,181,181);
+}
+
+.copyright p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.design-author span {
+    font-weight: bold;
+}
+/* // Footer */
